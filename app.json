@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "react-native-calculator",
-    "slug": "react-native-calculator",
+    "name": "calculator by Dron",
+    "slug": "dron-calculator",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -16,11 +20,19 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.dronudot.calculator_by_Dron",
+      "versionCode": 1,
+      "permissions": []
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dronudot.calculator-by-Dron",
+      "buildNumber": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
   }
 }
+
